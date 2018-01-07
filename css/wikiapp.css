@@ -1,0 +1,58 @@
+.container-fluid {
+            padding: 0 !important;
+            background-color: #E91E63;
+        }
+
+        #search-space {
+            height: 50px;
+            font-size: 1.3rem;
+            font-family: 'Poiret One', cursive;
+            outline: none;
+        }
+
+        #search-space:focus {
+            outline: none;
+             -webkit-box-shadow: none;
+             box-shadow: none;
+        
+        }
+
+        button {
+            cursor: pointer;
+            width: 80px;
+            display: flex;
+            justify-content: center;
+            background-color: #00BCD4 !important;
+            color: #ffffff !important;
+            border: 0;
+        }
+        button:focus {   
+            outline:none;
+        }
+        .random {
+            color: #ffffff !important;
+            font-family: 'Bellefair', serif;
+            font-size: 1.1rem;
+        }
+        a:hover {
+            text-decoration: none !important; 
+        }
+
+        .card {
+            box-shadow: 0px 0px 1px #aaaaaa;
+        }
+        .card:hover {
+            text-decoration: none !important; 
+            box-shadow: 0px 0px 5px #666666;
+        }
+
+        .card-title {
+            font-family: 'Ovo', serif;
+            color: #212121 !important;
+        }
+
+        .card-text {
+            font-family: 'Didact Gothic', sans-serif;
+            font-size: 1.2rem;
+            color: #424242 !important;
+        }
